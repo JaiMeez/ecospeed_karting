@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="css2.css">
     <meta http-equiv="X-UA-Compatible" content="IE=firefox">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jaime, Cano y Samu">
@@ -13,27 +13,103 @@
 
 
 
-<header>
-<a href="./index.html"><img src="./img/ECOSPEED BLANCO.png" alt="Logo" height="100"></a>    
+<header>   
+    <a href="./index.html" class="logo"><img src="./img/ECOSPEED BLANCO.png" alt="Logo" height="80em"></a></li>
+             
+    <nav class="">
+        <ul>
+            <li><a href="./index.html">INICIO</a></li>
+            <li><a href="./shop.html">TIENDA</a></li>
+            <li><a href="./whoweare.html">QUIENES SOMOS?</a></li>
+            <li><a href="./karting.html">KARTING</a></li>
+            <li><a href="contact.html">CONTACTO</a></li>
+        </ul>
+    </nav>
 </header>
+<section class="zona1">
+<h2 id="LVNSADG">LA VELOCIDAD NO SE<br> ALIMENTA DE GASOLINA</h2>
+</section>
 
-
-<nav>
-<a href="./index.html">INICIO</a> <a href="./shop.html">TIENDA</a> <a href="./whoweare.html">QUIENES SOMOS?</a> <a href="./karting.html">KARTING</a><a href="contact.html">CONTACTO</a>
-</nav>
-
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header")
+        header.classList.toggle("abajo", window.scrollY>0); 
+    })
+</script>
 
 <body>
 
 <main>
+    <div id="Texto">
+        <div><h2 id="titulo1">EL SITIO PERFECTO PARA QUEDAR</h2></div>
+        <div><p id="texto1">ECO <span class="speed">SPEED</span> es una realidad, es un sitio genial para quedar con tus amigos y con vuestros vehiculos.</p></div>
+        <div><p id="texto2">Dispondréis de parking gratuito, eventos, bar, buena musica y un circuito maravilloso para poder correr.</p></div>
+        <div><figure>
+            <img id="Img1" src="./img/145.jpg" alt="Imagen 1 karting">
+            <figcaption></figcaption>
+        </figure></div>
+        <div><figure>
+            <img id="Img2" src="./img/145 (1).jpg" alt="Imagen 2 karting">
+            <figcaption></figcaption>
+        </figure></div>
 
+        <div id="YT">
+            <a href="https://www.youtube.com/EcoSpeed">
+            <img id="YTimg" src="./img/logos rrss/Youtube-logo-negro.png" alt="Youtube"></a><br>
+            <figurecaption id="YTtext">EcoSpeed</figurecaption>
+        </div>
+
+        <div id="TT">
+            <a href="https://www.tiktok.com/EcoSpeed">
+            <img id="TTimg" src="./img/logos rrss/Tiktok-negro.png" alt="Youtube"></a><br>
+            <figurecaption id="TTtext">EcoSpeedReels</figurecaption>
+        </div>
+
+        <div id="FB">
+            <a href="https://www.facebook.com/EcoSpeed">
+            <img id="FBimg" src="./img/logos rrss/5ecec78673e4440004f09e77.png" alt="Youtube"></a><br>
+            <figurecaption id="FBtext">EcoSpeed Karting</figurecaption>
+        </div>
+
+        <div id="IG">
+            <a href="https://www.instagram.com/EcoSpeed">
+            <img id="IGimg" src="./img/logos rrss/81341.png" alt="Youtube"></a><br>
+            <figurecaption id="IGtext">EcoSpeed Karts</figurecaption>
+        </div>
+    </div>
+    
+    <div id="">
+    <script src="script.js"></script>
+    </div>
+    <iframe id="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11894.026565927708!2d2.225634637171892!3d41.817387367630936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4dbf081f3995f%3A0x35623a79c9624608!2sCarr.%20de%20Ribes%2C%2008550%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1678319496254!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </main>
 
 </body>
 
 
 <footer>
+<div id="nuem">
+    <div id="nuemtitle"><h3>NUESTRA EMPRESA</h3></div>
+    <div class="footlink"><a href="./whoweare.html">Sobre nosotros</a></div>
+    <div class="foottext"><p>Término de uso</p></div>
+    <div class="foottext"><p>Política de privacidad</p></div>
+    <div class="footlink"><a href="#">Configurar Cookies</a></div>
+</div>
 
+<div id="con">
+    <div id="contitle"><h3>CONTACTO</h3></div>
+    <div class="foottext"><p>Carretera Ribes, S/N,</p></div>
+    <div class="foottext"><p>Els Hostalets de</p></div>
+    <div class="foottext"><p>Ballenya, Barcelona</p></div>
+    <div class="special"><p>Email: <a href="#">acano@ecspkarting.com</a></p></div>
+    <div class="special"><p>Telefono: <a href="#">637 58 64 89</a></p></div>
+</div>
+
+<div id="footlogo"><a href="./index.html" class="logo"><img src="./img/ECOSPEED BLANCO.png" alt="Logo" height="80em"></a></div>
+
+<br>
+
+<div id="pwby"><p>©ECO SPEED KARTING Powered by <a href="https://www.instagram.com/acano.01">Alex Cano</a> </p></div>
 </footer>
 
 
