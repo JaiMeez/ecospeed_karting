@@ -132,8 +132,11 @@ header {
         z-index: 100;
         transition: 0.8s;
     }
+    #botones{
+        margin: 120px 4px;
+    }
     #botones div{
-        margin: 0 20px;
+        margin: 0 10px;
         height: 20vh;
         width: 20%;
     }
