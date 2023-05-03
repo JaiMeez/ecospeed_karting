@@ -250,6 +250,15 @@ body {
     margin-right: 3.4em;
 }
 
+.Img {
+    border-radius: 1em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    display: inline-block;   
+    min-height: 20em;
+    height: 20em;
+    width: 100%;
+}
 .e_rss {
     margin: 0 1em;
 }
