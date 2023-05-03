@@ -278,6 +278,12 @@ position: relative;
     background: #2b002c;
     color: #fff;
 }
+/* mapa */
+#Maps {
+    padding: 2em;
+    height: 350px;
+    width: 100%;
+}
 /* Fuente Tw-Cen-MT */
 @font-face {
     font-family: FuenteWeb;
@@ -359,7 +365,7 @@ position: relative;
     #titulo1 {
         text-align: center;
         font-family: FuenteWeb;
-        font-size: 3em;
+        font-size: 1.94em;
         padding: 0;
         margin: 0;
         letter-spacing: 0.04em;
@@ -391,11 +397,100 @@ position: relative;
     }
     .Img {
         border-radius: 0.4em;
-        margin: 0;
+        margin: 0 18px;
         padding: 0;
         display: inline-block;   
-        min-height: 6em;
-        height: 6em;
+        min-height: 6.6em;
+        height: 6.6em;
         width: auto;
+    }
+    /* redes */
+    .redes {
+        display: grid;
+        width: 100%; height: 100%;
+        place-items: center;
+    }
+    .wrapper {
+        margin: 0 0;
+        display: inline-flex;
+        list-style: none;
+    }
+    .wrapper .icon {
+        position: relative;
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 15px; margin: 10px 20px;
+        width: 60px; height: 60px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .wrapper .logo {
+        text-decoration: none;
+        color: #000;
+    }
+    .wrapper .rrtxt {
+        font-size: 16px;
+    }
+    .wrapper .tooltip {
+        text-decoration: none;
+        position: absolute;
+        top: 0;
+        font-size: 1.1em;
+        background-color: #fff;
+        padding: 5px 8px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        pointer-events: 0;
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .wrapper .icon:hover .tooltip {
+        top: -45px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .wrapper .icon:hover span,
+    .wrapper .icon:hover .tooltip {
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+    }
+    .wrapper .facebook:hover,
+    .wrapper .facebook:hover .tooltip,
+    .wrapper .facebook:hover .logo,
+    .wrapper .facebook:hover .tooltip::before {
+        background: #fff;
+        color: #000;
+    }
+    .wrapper .tiktok:hover,
+    .wrapper .tiktok:hover .tooltip,
+    .wrapper .tiktok:hover .logo,
+    .wrapper .tiktok:hover .tooltip::before {
+        background: #fff;
+        color: #000;
+    }
+    .wrapper .instagram:hover,
+    .wrapper .instagram:hover .tooltip,
+    .wrapper .instagram:hover .logo,
+    .wrapper .instagram:hover .tooltip::before {
+        background: #fff;
+        color: #000;
+    }
+    .wrapper .youtube:hover,
+    .wrapper .youtube:hover .tooltip,
+    .wrapper .youtube:hover .logo,
+    .wrapper .youtube:hover .tooltip::before {
+        background: #fff;
+        color: #000;
+    }
+    #Maps {
+        padding: 2em;
+        height: 250px;
+        width: 100%;
     }
 }
