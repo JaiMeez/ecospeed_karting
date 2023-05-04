@@ -31,6 +31,9 @@ header .logo {
     position: relative;
     transition: 1.5s;
 }
+header .logo:hover {
+    scale: 1.1;
+}
 /* Lista nav */
 .menu ul {
     list-style: none;
@@ -121,7 +124,7 @@ position: relative;
 
 #botones div:hover {
     transition: 0.7s;
-    scale: 1.1,1;
+    scale: 1.1;
 }
 
 #botones div a:hover {
@@ -350,6 +353,10 @@ footer {
 
 #footlogo {
     margin-top: 2.8em;
+    transition: 0.7s;
+}
+#footlogo:hover {
+    scale: 1.1;
 }
 
 .footlink {
