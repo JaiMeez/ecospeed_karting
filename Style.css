@@ -78,6 +78,7 @@ article {
     border-radius: 2px;
     background-color: #fff;
     margin: 0px 8.4em;
+    margin-bottom: 3em;
 }
 /* Imagen + eslogan */
 .zona1 {  
@@ -120,7 +121,7 @@ position: relative;
 
 #botones div:hover {
     transition: 0.7s;
-    scale: 1.1;
+    scale: 1.1,1;
 }
 
 #botones div a:hover {
@@ -222,7 +223,8 @@ position: relative;
     place-items: center;
 }
 .wrapper {
-    margin: 2em 0;
+    margin: 0 0;
+    margin-bottom: 2em;
     display: inline-flex;
     list-style: none;
 }
@@ -230,8 +232,8 @@ position: relative;
     position: relative;
     background-color: #fff;
     border-radius: 50%;
-    padding: 15px; margin: 10px 50px;
-    width: 200px; height: 200px;
+    padding: 15px; margin: 10px 64px;
+    width:170px; height: 170px;
     font-size: 70px;
     display: flex;
     justify-content: center;
@@ -240,6 +242,10 @@ position: relative;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .logo {
+    text-decoration: none;
+    color: #000;
 }
 .wrapper .rrtxt {
     font-size: 30px;
@@ -258,7 +264,7 @@ position: relative;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon:hover .tooltip {
-    top: -75px;
+    top: -55px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -269,21 +275,132 @@ position: relative;
 }
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .logo,
 .wrapper .facebook:hover .tooltip::before {
     background: #fff;
     color: #000;
 }
 .wrapper .tiktok:hover,
 .wrapper .tiktok:hover .tooltip,
+.wrapper .tiktok:hover .logo,
 .wrapper .tiktok:hover .tooltip::before {
-    background: #2b002c;
-    color: #fff;
+    background: #fff;
+    color: #000;
+}
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .logo,
+.wrapper .instagram:hover .tooltip::before {
+    background: #fff;
+    color: #000;
+}
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .logo,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+    background: #fff;
+    color: #000;
 }
 /* mapa */
 #Maps {
     padding: 2em;
     height: 350px;
     width: 100%;
+}
+/* footer */
+footer {
+    background-color: rgba(0,0,0,1) ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    z-index: 10;
+}
+
+#nuemtitle h3{
+    text-decoration: none;
+    color: #fff;
+    font-family: FuenteWeb;
+    font-weight: 10;
+    letter-spacing: 0.10em;
+}
+
+#contitle h3{
+    text-decoration: none;
+    color: #fff;
+    font-family: FuenteWeb;
+    font-weight: 10; 
+    letter-spacing: 0.10em;
+}
+
+.foottext {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}   
+
+.foottext p {
+    font-size: x-small;
+    font-family: Arial;
+    color: #fff;
+    letter-spacing: 0.10em;
+}
+
+#footlogo {
+    margin-top: 2.8em;
+}
+
+.footlink {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+.footlink a {
+    text-decoration: none;
+    font-size: x-small;
+    font-family: Arial;
+    color: lime;
+    letter-spacing: 0.10em;
+}
+
+.special {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em
+}
+
+.special p {
+    text-decoration: none;
+    font-size: x-small;
+    font-family: Arial;
+    color: #fff;
+    letter-spacing: 0.10em;
+}
+
+.special p a {
+    text-decoration: none;
+    color: lime;
+    letter-spacing: 0.10em;
+}
+
+
+#pwby {
+    margin-top: 5em;
+}
+
+#pwby p {
+    text-decoration: none;
+    font-size: x-small;
+    font-family: Arial;
+    color: #fff;
+    letter-spacing: 0.10em;
+}
+
+#pwby p a {
+    text-decoration: none;
+    color: lime;
+    letter-spacing: 0.10em;
 }
 /* Fuente Tw-Cen-MT */
 @font-face {
