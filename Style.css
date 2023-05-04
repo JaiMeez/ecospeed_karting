@@ -624,6 +624,18 @@ footer img {
         height: 250px;
         width: 100%;
     }
+
+    #nuem {
+        margin: 0px 0px;
+        padding: 0 20px;
+    }
+
+
+    #con {
+        margin: 0px 0px;
+        padding: 0 20px ;
+    }
+
     #nuemtitle h3{
         text-decoration: none;
         color: #fff;
@@ -658,6 +670,8 @@ footer img {
 
     #footlogo {
         position: absolute;
+        top: 2000px;
+        left: 340px;
         height: auto; width: 50px;
         margin-top: 2.8em;
         transition: 0.7s;
