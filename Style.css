@@ -351,6 +351,10 @@ footer {
     letter-spacing: 0.10em;
 }
 
+footer img {
+    height: 100px;
+}
+
 #footlogo {
     margin-top: 2.8em;
     transition: 0.7s;
@@ -524,11 +528,11 @@ footer {
     .Img {
         border-radius: 0.4em;
         margin: 0 2px;
-        margin-top:4px;
+        margin-top:10px;
         padding: 0;
         display: inline-block;   
-        min-height: 16.4em;
-        height: 16.4em;
+        min-height: 14.6em;
+        height: 14.6em;
         width: auto;
     }
     /* redes */
@@ -546,7 +550,7 @@ footer {
         position: relative;
         background-color: #fff;
         border-radius: 50%;
-        padding: 15px; margin: 10px 10px;
+        padding: 15px; margin: 0px 10px;
         width: 60px; height: 60px;
         font-size: 30px;
         display: flex;
@@ -619,5 +623,98 @@ footer {
         padding: 2em;
         height: 250px;
         width: 100%;
+    }
+    #nuemtitle h3{
+        text-decoration: none;
+        color: #fff;
+        font-family: FuenteWeb;
+        font-size: x-small;
+        letter-spacing: 0.10em;
+    }
+    
+    #contitle h3{
+        text-decoration: none;
+        color: #fff;
+        font-family: FuenteWeb;
+        font-size: x-small; 
+        letter-spacing: 0.10em;
+    }
+    
+    .foottext {
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+    }   
+    
+    .foottext p {
+        font-size: xx-small;
+        font-family: Arial;
+        color: #fff;
+        letter-spacing: 0.10em;
+    }
+    
+    footer img{
+        height: auto; width: 60px;
+    }
+
+    #footlogo {
+        position: absolute;
+        height: auto; width: 50px;
+        margin-top: 2.8em;
+        transition: 0.7s;
+    }
+
+    #footlogo:hover {
+        scale: 1.1;
+    }
+    
+    .footlink {
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+    }
+    
+    .footlink a {
+        text-decoration: none;
+        font-size: x-small;
+        font-family: Arial;
+        color: lime;
+        letter-spacing: 0.10em;
+    }
+    
+    .special {
+        margin-top: 0.8em;
+        margin-bottom: 0.8em
+    }
+    
+    .special p {
+        text-decoration: none;
+        font-size: x-small;
+        font-family: Arial;
+        color: #fff;
+        letter-spacing: 0.10em;
+    }
+    
+    .special p a {
+        text-decoration: none;
+        color: lime;
+        letter-spacing: 0.10em;
+    }
+    
+    
+    #pwby {
+        margin-top: 5em;
+    }
+    
+    #pwby p {
+        text-decoration: none;
+        font-size: x-small;
+        font-family: Arial;
+        color: #fff;
+        letter-spacing: 0.10em;
+    }
+    
+    #pwby p a {
+        text-decoration: none;
+        color: lime;
+        letter-spacing: 0.10em;
     }
 }
