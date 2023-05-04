@@ -397,11 +397,11 @@ position: relative;
     }
     .Img {
         border-radius: 0.4em;
-        margin: 0 18px;
+        margin: 0 2px;
         padding: 0;
         display: inline-block;   
         min-height: 6.6em;
-        height: 6.6em;
+        height: 6.4em;
         width: auto;
     }
     /* redes */
