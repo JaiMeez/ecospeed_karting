@@ -441,6 +441,7 @@ footer img {
     text-decoration: none;
     text-align: center;
 }
+/*  */
 /* Fuente Tw-Cen-MT */
 @font-face {
     font-family: FuenteWeb;
@@ -515,7 +516,7 @@ footer img {
         padding: 0;
         font-size: 3em;
     }
-    article{
+    #art1{
         margin: 1em 0.5em;
         padding: 0;
     }
