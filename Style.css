@@ -698,11 +698,8 @@ footer img {
     }
 
     #footlogo {
-        position: absolute;
-        top: 2000px;
-        left: 340px;
+        display: grid;
         height: auto; width: 50px;
-        margin-top: 2.8em;
         transition: 0.7s;
     }
 
