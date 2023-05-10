@@ -213,7 +213,7 @@ position: relative;
     border-radius: 1em;
     margin-left: 0.1em;
     margin-right: 0.1em;
-    display: inline-block;   
+    display: inline-block;  
     min-height: auto;
     height: auto;
     width: 100%;
@@ -441,7 +441,64 @@ footer img {
     text-decoration: none;
     text-align: center;
 }
-/*  */
+/* Karting */
+section {
+    margin: 0 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+#circuito {
+    flex-wrap: wrap;
+}
+
+#coches {
+    flex-wrap: wrap-reverse;
+}
+
+#circuito div {
+    width: auto;
+    margin: 0 auto;
+    display: grid;
+    flex-wrap: wrap;
+}
+
+#txtcircuito {
+    margin: 0 4em;
+}
+
+.race {
+    text-align: justify;
+    font-family: FuenteWeb;
+    font-size: 2em;
+    padding: 0.5em 1.1em;
+}
+
+#coches div{
+    width: auto;
+    margin: 0 auto;
+    display: grid;
+}
+
+#imgkarts {
+    float: right;
+}
+
+#txtkarts {
+    float: left;
+    margin: 0 4em;
+}
+
+.karts {
+    text-align: justify;
+    font-family: FuenteWeb;
+    font-size: 2em;
+    padding: 0.5em 1.1em;
+}
+
+
+
 /* Fuente Tw-Cen-MT */
 @font-face {
     font-family: FuenteWeb;
@@ -449,6 +506,34 @@ footer img {
 }
 /* Responsive */
 @media(max-width: 768px){
+    /* Generales */
+    .art2 {
+        border-radius: 2px;
+        background-color: #fff;
+        margin: 0px 0.6em;
+        margin-bottom: 0.7em;
+    }
+    
+    .zonas1 {
+        margin: 1em auto;
+        margin-top: 8em;
+        background-size: cover;
+        background-position: center -6.8em;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./img/Electric.jpg);
+        height: 10vh; width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    #banner {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        font-size: 2em;
+        text-transform: uppercase;
+        place-content: center;
+        text-decoration: none;
+        text-align: center;
+    }
     /* Header */
     .mostrar-menu,
     .esconder-menu {
