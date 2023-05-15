@@ -766,4 +766,11 @@ section {
         width: 100%;
     }
 
+    #nuestraempresa {
+        text-align: center;
+    }
+
+    #contacto {
+        text-align: center;
+    }
 }
