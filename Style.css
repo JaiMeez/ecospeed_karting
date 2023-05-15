@@ -321,7 +321,6 @@ footer {
 }
 
 #foot1 {
-    border: #000 1px solid;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -336,14 +335,14 @@ footer {
 #nuestraempresa h3 {
     color: white;
     font-family: FuenteWeb;
-    font-size: xx-large; 
+    font-size: x-large; 
     letter-spacing: 0.04em;
 }
 
 #nuestraempresa p {
     color: white;
     font-family: FuenteWeb;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 0.04em;
 }
 
@@ -356,14 +355,14 @@ footer {
 #contacto h3 {
     color: white;
     font-family: FuenteWeb;
-    font-size: xx-large; 
+    font-size: x-large; 
     letter-spacing: 0.04em;
 }
 
 #contacto p {
     color: white;
     font-family: FuenteWeb;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 0.04em;
 }
 
@@ -376,7 +375,7 @@ footer {
 #pwby p {
     color: white;
     font-family: FuenteWeb;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 0.04em;
 }
  
@@ -388,7 +387,6 @@ footer {
 
 #foot2 {
     align-items: center;
-    border: #000 1px solid;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -825,5 +823,58 @@ section {
 
     #contacto {
         text-align: center;
+    }
+
+    #nuestraempresa h3 {
+        color: white;
+        font-family: FuenteWeb;
+        font-size: xx-large; 
+        letter-spacing: 0.04em;
+    }
+    
+    #nuestraempresa p {
+        color: white;
+        font-family: FuenteWeb;
+        font-size: x-large;
+        letter-spacing: 0.04em;
+    }
+    
+    #nuestraempresa a {
+        color: lime;
+        font-family: FuenteWeb;
+        text-decoration: none;
+    }
+    
+    #contacto h3 {
+        color: white;
+        font-family: FuenteWeb;
+        font-size: xx-large; 
+        letter-spacing: 0.04em;
+    }
+    
+    #contacto p {
+        color: white;
+        font-family: FuenteWeb;
+        font-size: x-large;
+        letter-spacing: 0.04em;
+    }
+    
+    #contacto a {
+        color: lime;
+        font-family: FuenteWeb;
+        text-decoration: none;
+    }
+    
+    #pwby p {
+        color: white;
+        font-family: FuenteWeb;
+        font-size: x-large;
+        letter-spacing: 0.04em;
+    }
+     
+    #pwby a {
+        color: lime;
+        font-family: FuenteWeb;
+        text-decoration: none;
     }
 }

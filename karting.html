@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=firefox">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jaime, Cano y Samu">
@@ -18,9 +18,12 @@
     })
 </script>
 
-<header>   
-    <a href="./index.html" class="logo"><img src="./img/ECOSPEED BLANCO.png" alt="Logo" height="80em"></a></li>
-             
+<header>
+    <h2 class="logo"><a href="./index.html" class="logo"><img src="./img/ECOSPEED BLANCO.png" alt="Logo" height="80em"></a></h2>
+    <input type="checkbox" id="check">
+    <label for="check" class="mostrar-menu">
+        &#8801
+    </label>
     <nav class="menu">
         <ul>
             <li><a href="./index.html" id="strt">INICIO</a></li>
@@ -29,9 +32,9 @@
             <li><a href="./karting.html" id="end">KARTING</a></li>
             <li><a href="./contact.html" id="end">CONTACTO</a></li>
         </ul>
-        <ul id="user">
-            <li></li>
-        </ul>
+        <label for="check" class="esconder-menu">
+            &#215
+        </label>
     </nav>
 </header>
 
@@ -146,31 +149,31 @@
 
 
 <footer>
-<div id="foot1">
-<div id="nuem">
-    <div id="nuemtitle"><h3>NUESTRA EMPRESA</h3></div>
-    <div class="footlink"><a href="./whoweare.html">Sobre nosotros</a></div>
-    <div class="foottext"><p>Término de uso</p></div>
-    <div class="foottext"><p>Política de privacidad</p></div>
-    <div class="footlink"><a href="#">Configurar Cookies</a></div>
-</div>
-
-<div id="con">
-    <div id="contitle"><h3>CONTACTO</h3></div>
-    <div class="foottext"><p>Carretera Ribes, S/N,</p></div>
-    <div class="foottext"><p>Els Hostalets de</p></div>
-    <div class="foottext"><p>Ballenya, Barcelona</p></div>
-    <div class="special"><p>Email: <a href="#">acano@ecspkarting.com</a></p></div>
-    <div class="special"><p>Telefono: <a href="#">637 58 64 89</a></p></div>
-</div>
-</div>
-
-<div id="foot2">
-<div id="footlogo"><a href="./index.html" class="logo"><img src="./img/ECOSPEED BLANCO.png" alt="Logo" height="80em"></a></div>
-
-<br>
-
-<div id="pwby"><p>©ECO SPEED KARTING Powered by <a href="https://www.instagram.com/acano.01">Alex Cano</a> </p></div>
-</div>
+    <div id="foot1">
+        <div id="nuestraempresa">
+            <h3>NUESTRA EMPRESA</h3>
+            <p><a class="footlink" href="./whoweare.html">Sobre nosotros</a></p>
+            <p>Término de uso</p>
+            <p>Política de privacidad</p>
+            <p><a href="#">Configurar Cookies</a></p>
+        </div>
+    
+        <div id="contacto">
+            <h3>CONTACTO</h3>
+            <p>Carretera Ribes, S/N,</p>
+            <p>Els Hostalets de</p>
+            <p>Ballenya, Barcelona</p>
+            <p>Email: <a class="footlink" href="#">acano@ecspkarting.com</a></p>
+            <p>Telefono: <a class="footlink" href="#">637 58 64 89</a></p>
+        </div>
+    </div>
+    
+    <div id="foot2">
+    <div id="footlogo"><a href="./index.html" class="logo"><img id="logo" src="./img/ECOSPEED BLANCO.png" alt="Logo"></a></div>
+    
+    <div id="pwby">
+        <p>©ECO SPEED KARTING Powered by <a class="footlink" href="https://www.instagram.com/acano.01">Alex Cano</a></p>
+    </div>
+    </div>
 </footer>
 </html>
