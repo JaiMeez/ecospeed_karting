@@ -11,6 +11,12 @@
     <title>EcoSpeed Karting</title>
 </head>
 
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header")
+        header.classList.toggle("abajo", window.scrollY>0); 
+    })
+</script>
 
 
 <header>
@@ -36,7 +42,42 @@
 
 
 <body>
-    
+    <div id="fueraDeArt">
+    <div class="zonas1">
+        <h2 id="banner">QUIENES SOMOS</h2>
+    </div>
+    </div>
+    <section class="secwwa" id="parte1">
+        <div id="">
+            <h2>ECO SPEED KARTING</h2>
+            <p>Trabajo en equipo bien coordinado</p>
+        </div>
+        <div id="">
+            <div>
+                <h2>Servicios y productos</h2>
+                <p>Nuestros proyectos a nivel nacional e internacional tienen la aprobación y validación por parte de nuestros clientes.</p>
+                <a href="#">MAS INFORMACIÓN</a>
+            </div>
+            <div>
+                <h2>Alquileres</h2>
+                <p>Ofrecemos servicios de alquiler de pista y de equipamiento para la pilotación en nuestros servicios y eventos.</p>
+                <a href="#">MAS INFORMACIÓN</a>
+            </div>
+        </div>
+        </section>
+    <article class="art2">
+        <section class="secwwa">
+            <figure>
+                <img src="./img/2019-10-13-JME_1500-1.jpg" alt="karts">
+                <figcaption></figcaption>
+            </figure>
+            <div>
+                <h2>Sobre <span>Eco</span>Speed</h2>
+                <p>En Eco Speed tenemos los mejores karts electricos de toda Cataluña, y un circuito muy competitivo que te aseguramos que va a ser muy divertido de pilotar. Éste es el lugar idóneo para quedar con tus amigos  y pasar un buen rato los fines de semana.
+                    Desde Eco Speed os invitamos a que os paseis a saludarnos y pasar una tarde con nosotros.</p>
+            </div>
+        </section>
+    </article>    
 </body>
 
 

@@ -11,7 +11,12 @@
     <title>EcoSpeed Karting</title>
 </head>
 
-
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header")
+        header.classList.toggle("abajo", window.scrollY>0); 
+    })
+</script>
 
 <header>
     <h2 class="logo"><a href="./index.html" class="logo"><img src="./img/ECOSPEED BLANCO.png" alt="Logo" height="80em"></a></h2>
@@ -36,8 +41,11 @@
 
 
 <body>
-    
-
+    <article class="art2">
+        <div class="zonas1">
+            <h2 id="banner">CONTACTO</h2>
+        </div>
+    </article>
 </body>
 
 

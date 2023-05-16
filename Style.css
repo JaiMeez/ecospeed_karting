@@ -403,11 +403,16 @@ footer {
 }
 
 /* Generales */
+#fueraDeArt {
+    margin: 0px 0.6em;
+}
+
 .art2 {
     border-radius: 2px;
     background-color: #fff;
     margin: 0px 0.6em;
-    margin-bottom: 3em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .zonas1 {
@@ -430,8 +435,9 @@ footer {
     text-decoration: none;
     text-align: center;
 }
+
 /* Karting */
-section {
+.seckart {
     margin: 2em 1em;
     margin-bottom: 1em;
     display: flex;
@@ -512,18 +518,31 @@ section {
     padding: 0.2em 0.5em;
 }
 
-/* recios Tandas */
+#acceder {
+    margin: 1em 0;
+    text-align: center;
+    font-size: 26px;
+}
+
+#max {
+    text-align: center;
+}
+
+#plantanda {
+    padding: 2em 0;
+    margin: 0em auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Precios Tandas */
 
 .titulo {
     letter-spacing: 4px;
     text-align: center;
     font-family: FuenteWeb;
     font-size: 5em;
-}
-
-#plantanda {
-    padding: 2em 0;
-    margin: 0em auto;
 }
 
 #plantanda div {
@@ -571,11 +590,27 @@ section {
     font-size: 1.5em;
 }
 
+#plancarrera {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 #plancarrera div {
     width: 26em;
     margin: 0 auto;
     border: 10px solid rgb(25, 227, 25);
 }
+
+/* Quienes somos */
+
+
+
+/* parte 1 */
+#parte1 {
+    background-color: #ededed;
+}
+/* parte 2 */
 
 /* Fuente Tw-Cen-MT */
 @font-face {
@@ -596,7 +631,7 @@ section {
         margin: 1em auto;
         margin-top: 8em;
         background-size: cover;
-        background-position: center -6.8em;
+        background-position: center -5em;
         background-repeat: no-repeat;
         background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./img/Electric.jpg);
         height: 10vh; width: 100%;
@@ -876,5 +911,19 @@ section {
         color: lime;
         font-family: FuenteWeb;
         text-decoration: none;
+    }
+
+    #acceder {
+        margin: 1em 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #plantanda div {
+        margin: 1em 0;
+    }
+
+    #plancarrera div {
+        margin: 1em 0;
     }
 }
