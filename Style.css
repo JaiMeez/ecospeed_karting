@@ -635,9 +635,22 @@ footer {
     margin: auto auto;
 }
 
-#datos {
+.datos {
     display: flex;
     flex: 1;
+    min-width: 300px;
+}
+
+.datos div{
+    align-items: center;
+}
+
+.fotitocont img{
+    align-items: center;
+}
+
+.txtcont {
+    align-items: center;
 }
 
 #mapacont {
