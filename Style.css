@@ -920,10 +920,18 @@ footer {
     }
 
     #plantanda div {
-        margin: 1em 0;
+        margin: 1em 0.6em;
+    }
+
+    .limeh2 {
+        font-size: xx-large;
     }
 
     #plancarrera div {
-        margin: 1em 0;
+        margin: 1em 0.6em;
+    }
+
+    .limeh2 {
+        font-size: xx-large;
     }
 }
