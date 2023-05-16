@@ -627,6 +627,7 @@ footer {
 }
 
 .medio div {
+    margin: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
