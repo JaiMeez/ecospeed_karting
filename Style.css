@@ -66,7 +66,7 @@ header .logo:hover {
 }
 
 .menu a:hover, .mostrar-menu:hover, .esconder-menu:hover {
-    color: lime;
+    color: #06c926;
 }
 
 #check {
@@ -166,7 +166,7 @@ position: relative;
 }
 
 .speed {
-    color: lime;
+    color: #06c926;
     font-family: FuenteWeb;
 }
 
@@ -347,7 +347,7 @@ footer {
 }
 
 #nuestraempresa a {
-    color: lime;
+    color: #06c926;
     font-family: FuenteWeb;
     text-decoration: none;
 }
@@ -367,7 +367,7 @@ footer {
 }
 
 #contacto a {
-    color: lime;
+    color: #06c926;
     font-family: FuenteWeb;
     text-decoration: none;
 }
@@ -380,7 +380,7 @@ footer {
 }
  
 #pwby a {
-    color: lime;
+    color: #06c926;
     font-family: FuenteWeb;
     text-decoration: none;
 }
@@ -553,18 +553,18 @@ footer {
 #plantanda div {
     width: 26em;
     margin: 0 auto;
-    border: 10px solid rgb(25, 227, 25);
+    border: 10px solid #06c926;
 }
 
 .precio {
-    color: rgb(25, 227, 25);
+    color: #06c926;
     font-size: 7em;
     font-style: italic;
     font-family: arial;
     font-weight: bold;
     text-align: center;
-    border-top: 10px solid rgb(25, 227, 25);
-    border-bottom: 10px solid rgb(25, 227, 25);
+    border-top: 10px solid #06c926;
+    border-bottom: 10px solid #06c926;
 }
 
 .limeh2 {
@@ -573,7 +573,7 @@ footer {
     padding-top: 0.2em;
     font-size: 2.8em;
     color: white;
-    background-color: rgb(25, 227, 25);
+    background-color: #06c926;
 }
 
 .limeh3 {
@@ -581,7 +581,7 @@ footer {
     text-align: center;
     padding-bottom: 0.2em;
     color: white;
-    background-color: rgb(25, 227, 25);
+    background-color: #06c926;
 } 
 
 #lista {
@@ -604,7 +604,7 @@ footer {
 #plancarrera div {
     width: 26em;
     margin: 0 auto;
-    border: 10px solid rgb(25, 227, 25);
+    border: 10px solid #06c926;
 }
 
 /* Contacto */
@@ -675,7 +675,61 @@ footer {
 /* parte 1 */
 #parte1 {
     background-color: #ededed;
+    margin: 0px 0.6em;
+    margin-bottom: 1em;
+    padding: 0 1em;
 }
+
+.secwwa {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lime {
+    color: #06c926;
+}
+
+#trabajo {
+    flex: 1;
+    margin: 0.6em auto;
+}
+
+#trabajo h2 {
+    font-size: small;
+}
+
+#trabajo p {
+    font-weight:bold;
+    font-size: xx-large;
+}
+
+#servialquiler {
+    flex: 1;
+    display: flex;
+    margin: 0.6em auto;
+    gap: 20px;
+}
+
+.servih2 {
+    font-size: medium;
+}
+
+.servip {
+    font-size: small;
+}
+
+.servia {
+    font-size: small;
+    text-decoration: none;
+    color: #06c926;
+    border-bottom: #06c926 0.01px solid;
+}
+
+.servia:hover {
+    color: green;
+}
+
+
 /* parte 2 */
 
 /* Fuente Tw-Cen-MT */
@@ -759,7 +813,7 @@ footer {
         border-bottom: 1px solid #fff;
     }
     .menu a:hover{
-        background-color: lime;
+        background-color: #06c926;
         color: #000;
     }
     .esconder-menu{
@@ -941,7 +995,7 @@ footer {
     }
     
     #nuestraempresa a {
-        color: lime;
+        color: #06c926;
         font-family: FuenteWeb;
         text-decoration: none;
     }
@@ -961,7 +1015,7 @@ footer {
     }
     
     #contacto a {
-        color: lime;
+        color: #06c926;
         font-family: FuenteWeb;
         text-decoration: none;
     }
@@ -974,7 +1028,7 @@ footer {
     }
      
     #pwby a {
-        color: lime;
+        color: #06c926;
         font-family: FuenteWeb;
         text-decoration: none;
     }
