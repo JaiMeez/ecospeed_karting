@@ -448,6 +448,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 0;
+    margin-bottom: 1.6em;
+    flex-wrap: wrap-reverse;
 }
 
 #circuito {
@@ -729,8 +731,35 @@ footer {
     color: green;
 }
 
-
 /* parte 2 */
+
+.art3 {
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 0px 0.6em;
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
+
+.secwhowe {
+    margin: 1em 1em;
+    display: flex;
+    padding: 0;
+}
+
+#txtwhowe {
+    padding: 0;
+    margin: 0 2em;
+}
+
+.secwhowe div{
+    flex-wrap: wrap-reverse;
+    display: grid;
+    padding: 0;
+    width: auto;
+    margin: 0 auto;
+    align-items: center;
+}
 
 /* Fuente Tw-Cen-MT */
 @font-face {
