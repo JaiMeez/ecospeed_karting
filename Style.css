@@ -622,7 +622,6 @@ footer {
 
 .medio {
     height: auto;
-    border: #000 1px solid;
     flex: 1;
     flex-wrap: wrap;
     gap: 20px;
@@ -634,26 +633,40 @@ footer {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    border: #000 1px solid;
     margin: auto auto;
+    border: #000 1px s;
 }
 
 .datos {
+    align-items: center;
     display: flex;
     flex: 1;
     min-width: 300px;
 }
 
 .datos div{
+    justify-items: center;
     align-items: center;
 }
 
 .fotitocont img{
+    justify-items: center;
     align-items: center;
 }
 
 .txtcont {
+    justify-items: center;
+}
+
+.txtcont p{
+    justify-items: center;
     align-items: center;
+}
+
+.txtcont a {
+    justify-items: center;
+    color: #06c926;
+    text-decoration: none;
 }
 
 #mapacont {
@@ -661,12 +674,15 @@ footer {
 }
 
 .mediodemedio div {
+    justify-items: center;
+    margin: 0.6em 0.4em;
     display: flex;
     flex-wrap: wrap;
     gap: 40;
 }
 
 .mediodemedio div div {
+    justify-items: center;
     display: flex;
     flex: 1;
 }
