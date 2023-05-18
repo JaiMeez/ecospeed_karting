@@ -216,6 +216,7 @@ position: relative;
     display: inline-block;  
     min-height: auto;
     height: auto;
+    max-width: 600px;
     width: 100%;
 }
 /* Redes */
@@ -742,23 +743,21 @@ footer {
 }
 
 .secwhowe {
-    margin: 1em 1em;
+    margin: 2em 1em;
+    margin-bottom: 1em;
     display: flex;
+    justify-content: center;
     padding: 0;
-}
-
-#txtwhowe {
-    padding: 0;
-    margin: 0 2em;
+    margin-bottom: 1.6em;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    justify-items: center;
 }
 
 .secwhowe div{
+    justify-items: center;
+    flex: 1 0 400px;
     flex-wrap: wrap-reverse;
-    display: grid;
-    padding: 0;
-    width: auto;
-    margin: 0 auto;
-    align-items: center;
 }
 
 /* Fuente Tw-Cen-MT */
