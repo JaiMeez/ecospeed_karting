@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=firefox">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jaime, Cano y Samu">
+    <meta name="description" content="Pagina web official de EcoSpeedKarting">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>EcoSpeed Karting</title>
+</head>
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header")
+        header.classList.toggle("abajo", window.scrollY>0); 
+    })
+</script>
+
+
+<header>
+    <h2 class="logo"><a href="./index.html" class="logo"><img src="./img/ECOSPEED BLANCO.png" alt="Logo" height="80em"></a></h2>
+    <input type="checkbox" id="check">
+    <label for="check" class="mostrar-menu">
+        &#8801
+    </label>
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html" id="strt">INICIO</a></li>
+            <li><a href="./shop.html" id="strt">TIENDA</a></li>
+            <li><a href="./whoweare.html" id="mid">QUIENES SOMOS</a></li>
+            <li><a href="./karting.html" id="end">KARTING</a></li>
+            <li><a href="./contact.html" id="end">CONTACTO</a></li>
+        </ul>
+        <label for="check" class="esconder-menu">
+            &#215
+        </label>
+    </nav>
+</header>
+
+
+
+<body>
+    <article class="art2">
+
+        <main class="flex-shrink-0">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                                        <div class="col mb-2">
+                            <div class="card shadow-sm h-100">
+    
+                                                            <a href="details.php?id=1&amp;token=026a8089ff9ce1c296464138aad4080fe96bd25e">
+                                    <img src="images/productos/1/principal.jpg" class="card-img-top">
+                                </a>
+    
+                                <div class="card-body">
+                                    <p class="card-title">Zapato De Piel De Borrego</p>
+                                    <p class="card-text"><strong>$ 599.00</strong></p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="details.php?id=1&amp;token=026a8089ff9ce1c296464138aad4080fe96bd25e" class="btn btn-primary">Detalles</a>
+                                        </div>
+                                        <a class="btn btn-success" onclick="addProducto(1, '026a8089ff9ce1c296464138aad4080fe96bd25e')">Agregar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                        <div class="col mb-2">
+                            <div class="card shadow-sm h-100">
+    
+                                                            <a href="details.php?id=2&amp;token=6bef09442476435df6e73be9a94543ac9851af1d">
+                                    <img src="images/productos/2/principal.jpg" class="card-img-top">
+                                </a>
+    
+                                <div class="card-body">
+                                    <p class="card-title">Pc Gamer Amd Ryzen Ram 16gb 1Tb Ssd</p>
+                                    <p class="card-text"><strong>$ 9,299.00</strong></p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="details.php?id=2&amp;token=6bef09442476435df6e73be9a94543ac9851af1d" class="btn btn-primary">Detalles</a>
+                                        </div>
+                                        <a class="btn btn-success" onclick="addProducto(2, '6bef09442476435df6e73be9a94543ac9851af1d')">Agregar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                        <div class="col mb-2">
+                            <div class="card shadow-sm h-100">
+    
+                                                            <a href="details.php?id=3&amp;token=491729fc9f89d4e67a0612624afc970c510872b4">
+                                    <img src="images/productos/3/principal.jpg" class="card-img-top">
+                                </a>
+    
+                                <div class="card-body">
+                                    <p class="card-title">Smartphone Negro 32gb Dual Sim 3gb Ram</p>
+                                    <p class="card-text"><strong>$ 2,899.00</strong></p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="details.php?id=3&amp;token=491729fc9f89d4e67a0612624afc970c510872b4" class="btn btn-primary">Detalles</a>
+                                        </div>
+                                        <a class="btn btn-success" onclick="addProducto(3, '491729fc9f89d4e67a0612624afc970c510872b4')">Agregar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                </div>
+            </div>
+        </main>
+
+    </article>
+</body>
+
+
+
+<footer>
+    <div id="foot1">
+        <div id="nuestraempresa">
+            <h3>NUESTRA EMPRESA</h3>
+            <p><a class="footlink" href="./whoweare.html">Sobre nosotros</a></p>
+            <p>Término de uso</p>
+            <p>Política de privacidad</p>
+            <p><a href="#">Configurar Cookies</a></p>
+        </div>
+    
+        <div id="contacto">
+            <h3>CONTACTO</h3>
+            <p>Carretera Ribes, S/N,</p>
+            <p>Els Hostalets de</p>
+            <p>Ballenya, Barcelona</p>
+            <p>Email: <a class="footlink" href="#">acano@ecspkarting.com</a></p>
+            <p>Telefono: <a class="footlink" href="#">637 58 64 89</a></p>
+        </div>
+    </div>
+    
+    <div id="foot2">
+    <div id="footlogo"><a href="./index.html" class="logo"><img id="logo" src="./img/ECOSPEED BLANCO.png" alt="Logo"></a></div>
+    
+    <div id="pwby">
+        <p>©ECO SPEED KARTING Powered by <a class="footlink" href="https://www.instagram.com/acano.01">Alex Cano</a></p>
+    </div>
+    </div>
+</footer>
+
+</html>
