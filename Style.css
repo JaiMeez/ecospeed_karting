@@ -756,8 +756,12 @@ footer {
 
 .secwhowe div{
     justify-items: center;
-    flex: 1 0 400px;
+    flex: 1 0 300px;
     flex-wrap: wrap-reverse;
+}
+
+#txtwhowe p {
+    text-align: justify;
 }
 
 /* Fuente Tw-Cen-MT */
