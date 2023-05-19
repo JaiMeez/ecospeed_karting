@@ -1142,15 +1142,43 @@ footer {
     gap: 20px;
 }
 
-#tienda div {
+.product {
+    border-radius: 2px;
+    border: 5px #ededed solid;
     margin: auto;
-    max-width: 280px;
+    max-width: 265px;
     width: auto;
     flex: 1;
     
 }
 
-.imgtienda {
-    max-width: 260px;
+.imga {
+    max-width: 200px;
     width: auto;
 }
+
+.imgtienda {
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+    min-width: 200px;
+}
+
+.producth2 {
+    text-align: center;
+    font-family: FuenteWeb;
+    font-size: 38px;
+}
+
+.productp {
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+    font-size: 30px;
+    color: #06c926;
+}
+
+.producta {
+
+}
+
