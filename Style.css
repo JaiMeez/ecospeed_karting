@@ -1040,6 +1040,28 @@ footer {
         width: 100%;
     }
 
+    .race {
+        text-align: center;
+        font-family: FuenteWeb;
+        font-size: 1.4em;
+        padding: 0.2em 0.5em;
+    }
+
+    .karts {
+        text-align: center;
+        font-family: FuenteWeb;
+        font-size: 1.4em;
+        padding: 0.2em 0.5em;
+    }    
+
+    #txtcircuito h2 {
+        text-align: center;
+    }
+
+    #txtkarts h2 {
+        text-align: center;
+    }
+
     #nuestraempresa {
         text-align: center;
     }
