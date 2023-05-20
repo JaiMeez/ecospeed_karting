@@ -805,6 +805,12 @@ footer {
     font-family: FuenteWeb;
     src: url(./Tw-Cen-MT-Condensed-Font.woff);
 }
+
+@font-face {
+    font-family: FuentePrecio;
+    src: url(./Montserrat-Bold.woff);
+}
+
 /* Responsive */
 @media(max-width: 768px){
     /* Generales */
@@ -1198,7 +1204,7 @@ footer {
 
 .productp {
     margin: 0.2em 0.3em;
-    font-family: 'Franklin Gothic Medium';
+    font-family: FuentePrecio;
     text-align: center;
     font-size: 40px;
     color: #06c926;
