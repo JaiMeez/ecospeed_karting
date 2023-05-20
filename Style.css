@@ -1233,7 +1233,8 @@ footer {
     }
 
     .product {
-        max-width: 180px;
+        margin: auto;
+        max-width: 160px;
     }
 
     .imgtienda {
@@ -1241,7 +1242,7 @@ footer {
     }
 
     .producth2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .productp {
@@ -1249,11 +1250,11 @@ footer {
     }
 
     .botonproduct {
-        
+        padding: 1em 0;
     }
 
     .producta {
-        padding: 1em 3.1em;
+        padding: 0.6em 2.4em;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     }
