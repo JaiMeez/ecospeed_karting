@@ -800,6 +800,75 @@ footer {
     text-align: justify;
 }
 
+/* Tienda */
+
+#tienda {
+    margin: auto;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    border-radius: 2px;
+    border: 5px #ededed solid;
+    margin: auto;
+    max-width: 265px;
+    width: auto;
+    flex: 1;
+}
+
+.imga {
+    max-width: 200px;
+    width: auto;
+}
+
+.imgtienda {
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    transition: 0.5s;
+}
+
+.producth2 {
+    text-align: center;
+    font-family: FuenteWeb;
+    font-size: 38px;
+}
+
+.productp {
+    margin: 0.2em 0.3em;
+    font-family: FuentePrecio;
+    text-align: center;
+    font-size: 40px;
+    color: #06c926;
+}
+
+.botonproduct {
+    padding: 1.4em 0.4em;
+    text-align: center;
+}
+
+.producta {
+    text-decoration: none;
+    color: black;
+    background-color: #ededed;
+    border-radius:20px;
+    padding: 1em 5.5em;
+    transition: 0.5s;
+}
+
+.imgtienda:hover {
+    scale: 1.1;
+}
+
+.producta:hover {
+
+    background-color: #06c926;
+}
+
 /* Fuente Tw-Cen-MT */
 @font-face {
     font-family: FuenteWeb;
@@ -1159,141 +1228,33 @@ footer {
         font-size: xx-large;
     }
 
-    /* Tienda */
-
     #tienda {
-        margin: auto;
-        justify-items: center;
-        display: flex;
-        flex-wrap: wrap;
         gap: 10px;
     }
 
     .product {
-        border-radius: 2px;
-        border: 5px #ededed solid;
-        margin: auto;
-        max-width: 165px;
-        width: auto;
-        flex: 1;
-    }
-
-    .imga {
-        max-width: 100px;
-        width: auto;
+        max-width: 180px;
     }
 
     .imgtienda {
-        max-width: 160px;
-        width: 100%;
-        height: auto;
-        min-width: 50px;
-        transition: 0.5s;
+        max-width: 200px;
     }
 
     .producth2 {
-        text-align: center;
-        font-family: FuenteWeb;
-        font-size: 10px;
+        font-size: 28px;
     }
 
     .productp {
-        margin: 0.2em 0.3em;
-        font-family: FuentePrecio;
-        text-align: center;
-        font-size: 40px;
-        color: #06c926;
+        font-size: 26px;
     }
 
     .botonproduct {
-        padding: 1.4em 0.4em;
-        text-align: center;
+        
     }
 
     .producta {
-        text-decoration: none;
-        color: black;
-        background-color: #ededed;
-        border-radius:20px;
-        padding: 1em 2.5em;
-        transition: 0.5s;
+        padding: 1em 3.1em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     }
-
-    .imgtienda:hover {
-        scale: 1.1;
-    }
-
-    .producta:hover {
-
-        background-color: #06c926;
-    }
-}
-
-/* Tienda */
-
-#tienda {
-    margin: auto;
-    justify-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.product {
-    border-radius: 2px;
-    border: 5px #ededed solid;
-    margin: auto;
-    max-width: 265px;
-    width: auto;
-    flex: 1;
-}
-
-.imga {
-    max-width: 200px;
-    width: auto;
-}
-
-.imgtienda {
-    max-width: 260px;
-    width: 100%;
-    height: auto;
-    min-width: 200px;
-    transition: 0.5s;
-}
-
-.producth2 {
-    text-align: center;
-    font-family: FuenteWeb;
-    font-size: 38px;
-}
-
-.productp {
-    margin: 0.2em 0.3em;
-    font-family: FuentePrecio;
-    text-align: center;
-    font-size: 40px;
-    color: #06c926;
-}
-
-.botonproduct {
-    padding: 1.4em 0.4em;
-    text-align: center;
-}
-
-.producta {
-    text-decoration: none;
-    color: black;
-    background-color: #ededed;
-    border-radius:20px;
-    padding: 1em 5.5em;
-    transition: 0.5s;
-}
-
-.imgtienda:hover {
-    scale: 1.1;
-}
-
-.producta:hover {
-
-    background-color: #06c926;
-}
+}   
