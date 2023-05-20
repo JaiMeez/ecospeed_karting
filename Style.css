@@ -1171,7 +1171,6 @@ footer {
     max-width: 265px;
     width: auto;
     flex: 1;
-    
 }
 
 .imga {
@@ -1184,6 +1183,7 @@ footer {
     width: 100%;
     height: auto;
     min-width: 200px;
+    transition: 0.5s;
 }
 
 .producth2 {
@@ -1193,14 +1193,32 @@ footer {
 }
 
 .productp {
-    margin: auto;
+    margin: 0.2em 0.3em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: start;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
     color: #06c926;
 }
 
-.producta {
-
+.botonproduct {
+    padding: 1.4em 0.4em;
+    text-align: center;
 }
 
+.producta {
+    text-decoration: none;
+    color: black;
+    background-color: #ededed;
+    border-radius:20px;
+    padding: 1em 5.5em;
+    transition: 0.5s;
+}
+
+.imgtienda:hover {
+    scale: 1.1;
+}
+
+.producta:hover {
+
+    background-color: #06c926;
+}
