@@ -53,39 +53,41 @@
         <form action="https://formsubmit.co/9db522e875ad2d78e1a80872e934ae88" method="POST">
             
             <div>
-            <label for="nombre">Nombre<span>*</span></label> <br>
-            <input type="text" name="nombre" required>
+                <div class="divform1">
+                    <label for="nombre">Nombre<span>*</span></label> <br>
+                    <input class="respuesta" type="text" name="nombre" required>
+                </div>
+                    
+                <div class="divform2">
+                    <label for="email">Correo electronico<span>*</span></label> <br>
+                    <input class="respuesta" type="email" name="email" required>
+                </div>
             </div>
             
             <div>
-            <label for="email">Correo electronico<span>*</span></label> <br>
-            <input type="email" name="email" required>
-            <br>
-            </div>
-            
-            <div>
-            <label for="asunto">Asunto<span>*</span></label> <br>
-            <input type="subject" name="asunto" required>
-            </div>
-
-            <div>
-            <label for="numero">Teléfono<span>*</span></label> <br>
-            <input type="number" name="numero" required>
-            <br>
+                <div class="divform1">
+                    <label for="asunto">Asunto<span>*</span></label> <br>
+                    <input class="respuesta" type="subject" name="asunto" required>
+                </div>
+        
+                <div class="divform2">
+                    <label for="numero">Teléfono<span>*</span></label> <br>
+                    <input class="respuesta" type="number" name="numero" required minlength="9" maxlength="9">
+                </div>
             </div>
 
-            <div>
-            <label for="comentario">Descripcion<span>*</span></label> <br>
-            <input type="text" name="comentario" required><br>
+            <div class="divform3">
+                <label for="comentario">Descripcion<span>*</span></label> <br>
+                <input class="respuesta2" type="text" name="comentario" required><br>
             </div>
 
-            <div>
-            <input type="checkbox" required name="acepra" id=""> <span>Estoy de acuerdo con los <a href="#">terminos y condiciones</a></span>
+            <div class="divform1">
+            <input type="checkbox" required name="acepta" id=""> <span id="">Estoy de acuerdo con los <a href="#">terminos y condiciones</a></span>
             <input type="submit" value="Enviar">
             </div>
-
-            <input type="hidden" name="_next" value="https://www.ecospeedkarting.cat">
-            <input type="hidden" name="_captcha" value="false">
+            
+                <input type="hidden" name="_next" value="https://www.ecospeedkarting.cat">
+                <input type="hidden" name="_captcha" value="false">
         </form>
 
         </div>

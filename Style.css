@@ -611,6 +611,59 @@ footer {
 }
 
 /* Contacto */
+
+form {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    width: 100%;
+}
+
+.divform1 {
+    gap: 0 10px;
+    align-items: start;
+    flex: 1;
+    padding: 1em;
+    max-width: 100%;
+    width: auto;
+}
+
+.divform2 {
+    gap: 0 10px;
+    align-items: end;
+    flex: 1;
+    padding: 1em;
+    max-width: 100%;
+    width: auto;
+}
+
+.divform3 {
+    padding: 1em;
+    max-width: auto;
+    width: 100%;
+}
+
+.respuesta {
+    border-radius: 30px;
+    border: #131313 2px solid;
+    max-width: auto;
+    width: 100%;
+    min-width: 200px;
+    height: 3em;
+}
+
+.respuesta2 {
+    border-radius: 30px;
+    border: #131313 2px solid;
+    max-width: auto;
+    width: 100%;
+    min-width: 200px ;
+    height: 10em;
+}
+
 #contactohtml {
     display: flex;
     flex-wrap: wrap;
