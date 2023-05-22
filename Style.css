@@ -908,6 +908,7 @@ footer {
 
 .info {
     padding: 4em;
+    padding-bottom: 0;
 }
 
 .info2 {
