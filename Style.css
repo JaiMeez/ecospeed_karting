@@ -923,7 +923,12 @@ footer {
     background-color: #06c926;
 }
 
+.imagen {
+    justify-items: center;
+}
+
 .imagenproducto {
+    justify-items: center;
     max-width: 600px;
     min-width: 300px;
     width: 100%;

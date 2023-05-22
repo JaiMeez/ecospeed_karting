@@ -8,6 +8,7 @@
     <meta name="author" content="Jaime, Cano y Samu">
     <meta name="description" content="Pagina web official de EcoSpeedKarting">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <form method="post" action="correo:"></form>
     <title>EcoSpeed Karting</title>
 </head>
 
@@ -49,21 +50,21 @@
         <div class="medio">
         <h2 class="contit">¿Necesitas ayuda?</h2>
 
-        <form action="#" method="post">
+        <form action="https://formsubmit.co/ecspkarting@gmail.com" method="post" enctype="text/plain">
             <label for="">Nombre<span>*</span></label> <br>
-            <input type="text">
+            <input type="text" required>
             <label for="">Correo electronico<span>*</span></label> <br>
-            <input type="email">
+            <input type="email" name="email" required>
             <br>
             <label for="">Asunto<span>*</span></label> <br>
-            <input type="text">
+            <input type="text" required>
             <label for="">Teléfono<span>*</span></label> <br>
-            <input type="number">
+            <input type="number" required>
             <br>
             <label for="">Descripcion<span>*</span></label> <br>
-            <input type="text"><br>
-            <input type="checkbox" name="" id=""> <span>Estoy de acuerdo con los <a href="#">terminos y condiciones</a></span>
-            <input type="button" name="" value="Enviar">
+            <input type="text" required><br>
+            <input type="checkbox" required name="" id=""> <span>Estoy de acuerdo con los <a href="#">terminos y condiciones</a></span>
+            <input type="submit" id="Alex" value="Enviar">
         </form>
 
         </div>
