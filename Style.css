@@ -432,9 +432,14 @@ footer {
     display: grid;
     place-items: center;
 }
+
+#zonas1edit {
+    margin-top: 6em;
+}
+
 #banner {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #fff;
     font-size: 3em;
     text-transform: uppercase;
     place-content: center;
@@ -612,19 +617,23 @@ footer {
 
 /* Contacto */
 
+
+
 form {
+    width: auto;
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
 }
 
 .tituloform {
-    min-width: 20em;
+    min-width: 8em;
     width: 100%;
 }
 
 .tituloform span {
     color: red;
+    font-weight: bold;
 }
 
 .divform1 {
@@ -651,8 +660,9 @@ form {
 }
 
 .respuesta {
+    padding: 0em 1em;
     border-radius: 30px;
-    border: #131313 2px solid;
+    border: #918989 2px solid;
     max-width: auto;
     width: 100%;
     min-width: 200px;
@@ -661,11 +671,51 @@ form {
 
 .respuesta2 {
     border-radius: 30px;
-    border: #131313 2px solid;
+    border: #918989 2px solid;
     max-width: auto;
     width: 100%;
     min-width: 200px ;
     height: 10em;
+    padding: 1em;
+    overflow: auto;
+}
+
+#enviaryterminos {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+#enviaryterminos div {
+    justify-content: center;
+}
+
+#term {
+    border: #918989;
+}
+
+#term span{
+    flex: 1;
+    width: 100%;
+}
+
+#tercon {
+    flex: 1;
+    width: 100%;
+    font-size: small;
+}
+
+#enviar {
+    border-radius: 25px;
+    border: #918989 2px solid;
+    padding: 1em 2em;
+    transition: 0.7s;
+}
+
+#enviar:hover {
+    background-color: #06c926;
 }
 
 #contactohtml {
@@ -1265,6 +1315,11 @@ form {
 
     #contacto {
         text-align: center;
+    }
+
+    form {
+        margin: auto;
+        padding: auto;
     }
 
     #nuestraempresa h3 {

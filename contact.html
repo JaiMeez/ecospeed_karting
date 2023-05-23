@@ -39,11 +39,9 @@
     </nav>
 </header>
 
-
-
 <body>
     <article class="art2">
-        <div class="zonas1">
+        <div id="zonas1edit" class="zonas1">
             <h2 id="banner">CONTACTO</h2>
         </div>
     <div id="contactohtml">
@@ -51,7 +49,7 @@
         <h2 class="contit">¿Necesitas ayuda?</h2>
 
         <form action="https://formsubmit.co/9db522e875ad2d78e1a80872e934ae88" method="POST">
-            
+
             <div>
                 <div class="divform1">
                     <label class="tituloform" for="nombre">Nombre<span>*</span></label> <br>
@@ -72,20 +70,24 @@
         
                 <div class="divform2">
                     <label class="tituloform" for="numero">Teléfono<span>*</span></label> <br>
-                    <input class="respuesta" type="number" name="numero" required minlength="9" maxlength="9">
+                    <input class="respuesta" type="number" name="numero" maxlength="9">
                 </div>
             </div>
 
             <div class="divform3">
                 <label class="tituloform" for="comentario">Descripcion<span>*</span></label> <br>
-                <input class="respuesta2" type="" name="comentario" required><br>
+                <textarea cols="40" rows="10" class="respuesta2" name="comentario" id="" required></textarea>
             </div>
 
+            <div id="enviaryterminos">
             <div class="divform1">
-            <input type="checkbox" required name="acepta" id=""> <span id="">Estoy de acuerdo con los <a href="#">terminos y condiciones</a></span>
-            <input type="submit" value="Enviar">
+            <input type="checkbox" required name="acepta" id="term"> <span id="tercon">Estoy de acuerdo con los <a href="#">terminos y condiciones</a></span>
             </div>
             
+            <div class="divform1">
+                <input type="submit" value="Enviar" id="enviar"> 
+            </div>
+            </div>
                 <input type="hidden" name="_next" value="https://www.ecospeedkarting.cat">
                 <input type="hidden" name="_captcha" value="false">
         </form>
