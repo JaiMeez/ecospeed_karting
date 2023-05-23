@@ -696,7 +696,7 @@ form {
     border: #918989;
 }
 
-#term span{
+#term span {
     flex: 1;
     width: 100%;
 }
@@ -707,7 +707,13 @@ form {
     font-size: small;
 }
 
+#tercon a {
+    text-decoration: none;
+    color: #06c926;
+}
+
 #enviar {
+    background-color: #ededed;
     border-radius: 25px;
     border: #918989 2px solid;
     padding: 1em 2em;
@@ -715,6 +721,7 @@ form {
 }
 
 #enviar:hover {
+    border: #000 2px solid;
     background-color: #06c926;
 }
 
