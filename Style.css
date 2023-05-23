@@ -623,6 +623,10 @@ form {
     width: 100%;
 }
 
+.tituloform span {
+    color: red;
+}
+
 .divform1 {
     gap: 0 10px;
     flex: 1;
