@@ -619,12 +619,12 @@ form {
 }
 
 .tituloform {
+    min-width: 20em;
     width: 100%;
 }
 
 .divform1 {
     gap: 0 10px;
-    align-items: start;
     flex: 1;
     padding: 1em;
     max-width: 100%;
@@ -633,7 +633,6 @@ form {
 
 .divform2 {
     gap: 0 10px;
-    align-items: end;
     flex: 1;
     padding: 1em;
     max-width: 100%;
